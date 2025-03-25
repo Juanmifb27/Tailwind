@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+    --color-piedra: #A1A8B4;
+    --color-bittersweet: #FF785A;
+
+    --font-inter: "Inter";
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Animada Tailwind 2</title>
+    <link rel="stylesheet" href="../dist/css/styles2.css" />
+</head>
+<body class="bg-sky-300 mt-20 h-screen flex justify-center items-start">
+    <section class="space-y-4 mt-10 mx-auto w-max">
+        <!-- En CSS Tradicional: buttonhover ~ img (...) -->
+        <!-- En Tailwind se usa peer -->
+
+
+        <button class="bg-blue-700 text-white p-4 w-max peer/abajo">Abajo</button>
+        <button class="bg-blue-700 text-white p-4 w-max peer/derecha">Derecha</button>
+
+        <img src="../dist/assets/img/imagen.jpg" class="w-40 peer-hover/abajo:translate-y-full peer-hover/derecha:translate-x-full transition" alt="Avion">
+
+    </section>
+    
+</body>
+</html>
